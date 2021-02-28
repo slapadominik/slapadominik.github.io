@@ -872,3 +872,31 @@ footer {
         padding: 5px 10px
     }
 }
+
+p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#about{
+    text-align: center !important;
+}
+
+@media screen and (max-width: 768px) {
+    #img-col {
+      visibility: hidden;
+      clear: both;
+      float: left;
+      margin: 10px auto 5px 20px;
+      width: 28%;
+      display: none;
+    }
+}
+
+.vtimeline-block p {
+    font-size: 16px;
+}
+
+.project-info p{
+    font-size: 16px;
+}
